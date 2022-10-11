@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout/immutable_widget.dart';
 
 void main() {
   runApp(const StaticApp());
@@ -9,7 +10,7 @@ class StaticApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: ImmutableWidget(),
     );
   }
